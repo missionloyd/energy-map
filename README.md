@@ -2,7 +2,7 @@
 
 Spearman correlation analysis between electricity demand and temperature for 66 US balancing authorities (2024).
 
-**Live Demo:** https://missionloyd.github.io/energy-map/
+**Live Demo:** https://missionloyd.github.io/energy-map/app/
 
 ## Usage
 
