@@ -8,7 +8,6 @@ html, body, #energymap {
     width: 100%;
 }
 
-/* Legend styling */
 .legend {
     background: white;
     padding: 10px;
@@ -36,4 +35,30 @@ html, body, #energymap {
     margin-top: 8px;
     font-weight: bold;
     color: #222;
+}
+
+.strength-filter {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    color: #555;
+}
+
+.strength-filter h4 {
+    margin: 0 0 8px;
+    color: #333;
+    font-size: 14px;
+}
+
+.strength-filter label {
+    display: block;
+    margin: 4px 0;
+    cursor: pointer;
+    user-select: none;
+}
+
+.strength-filter input[type="checkbox"] {
+    margin-right: 6px;
+    cursor: pointer;
 }

@@ -32,8 +32,11 @@ var regionCodes = [
     'EEI', 'AVRN', 'GRIF', 'GRID', 'GLHB'
 ];
 
-// layer group for correlation markers
-var correlationLayer = L.layerGroup();
+// layer groups for each strength level
+var strongLayer = L.layerGroup();
+var moderateLayer = L.layerGroup();
+var weakLayer = L.layerGroup();
+var correlationLayer = L.layerGroup([strongLayer, moderateLayer, weakLayer]);
 
 // helper function for displaying colors and size
 function getStrengthColor(r, strength) {
@@ -89,7 +92,15 @@ regionCodes.forEach(function(code) {
         });
 
         marker.bindPopup(createPopup(data));
-        correlationLayer.addLayer(marker);
+
+        // add to appropriate strength layer
+        if (data.strength === 'strong') {
+            strongLayer.addLayer(marker);
+        } else if (data.strength === 'moderate') {
+            moderateLayer.addLayer(marker);
+        } else {
+            weakLayer.addLayer(marker);
+        }
 
         loadedCount++;
         if (loadedCount === totalRegions) {
@@ -101,7 +112,10 @@ regionCodes.forEach(function(code) {
     });
 });
 
-correlationLayer.addTo(map);
+// strength layers to the map
+strongLayer.addTo(map);
+moderateLayer.addTo(map);
+weakLayer.addTo(map);
 
 // base maps and overlays
 var baseMaps = {
@@ -130,3 +144,48 @@ legend.onAdd = function(map) {
 };
 
 legend.addTo(map);
+
+// filter control
+var strengthFilter = L.control({position: 'topright'});
+
+strengthFilter.onAdd = function(map) {
+    var div = L.DomUtil.create('div', 'strength-filter');
+    div.innerHTML = '<h4>Filter by Strength</h4>' +
+                    '<label><input type="checkbox" id="filter-strong" checked> Strong</label><br>' +
+                    '<label><input type="checkbox" id="filter-moderate" checked> Moderate</label><br>' +
+                    '<label><input type="checkbox" id="filter-weak" checked> Weak</label>';
+
+    // prevent map interactions when clicking on the filter
+    L.DomEvent.disableClickPropagation(div);
+
+    return div;
+};
+
+strengthFilter.addTo(map);
+
+// event listeners for filter checkboxes
+setTimeout(function() {
+    document.getElementById('filter-strong').addEventListener('change', function(e) {
+        if (e.target.checked) {
+            map.addLayer(strongLayer);
+        } else {
+            map.removeLayer(strongLayer);
+        }
+    });
+
+    document.getElementById('filter-moderate').addEventListener('change', function(e) {
+        if (e.target.checked) {
+            map.addLayer(moderateLayer);
+        } else {
+            map.removeLayer(moderateLayer);
+        }
+    });
+
+    document.getElementById('filter-weak').addEventListener('change', function(e) {
+        if (e.target.checked) {
+            map.addLayer(weakLayer);
+        } else {
+            map.removeLayer(weakLayer);
+        }
+    });
+}, 100);
