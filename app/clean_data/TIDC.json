@@ -1,0 +1,15 @@
+{
+  "region": "TIDC",
+  "name": "Turlock Irrigation District",
+  "lat": 37.5,
+  "lng": -120.8,
+  "r": 0.7422,
+  "r2": 0.5508,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 335.14,
+  "energy_std": 98.53,
+  "temp_mean": 18.44,
+  "temp_std": 9.66
+}

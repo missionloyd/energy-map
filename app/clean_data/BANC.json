@@ -1,0 +1,15 @@
+{
+  "region": "BANC",
+  "name": "Balancing Authority of Northern California",
+  "lat": 38.9,
+  "lng": -121.8,
+  "r": 0.5746,
+  "r2": 0.3302,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 2040.28,
+  "energy_std": 584.76,
+  "temp_mean": 18.23,
+  "temp_std": 9.74
+}

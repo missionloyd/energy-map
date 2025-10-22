@@ -1,0 +1,15 @@
+{
+  "region": "SPA",
+  "name": "Southwestern Power Administration",
+  "lat": 35.5,
+  "lng": -97.0,
+  "r": 0.0238,
+  "r2": 0.0006,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 22.47,
+  "energy_std": 7.37,
+  "temp_mean": 17.95,
+  "temp_std": 9.97
+}

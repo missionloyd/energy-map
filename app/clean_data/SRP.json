@@ -1,0 +1,15 @@
+{
+  "region": "SRP",
+  "name": "Salt River Project",
+  "lat": 33.4,
+  "lng": -111.9,
+  "r": 0.8041,
+  "r2": 0.6465,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8460,
+  "energy_mean": 4072.13,
+  "energy_std": 1377.83,
+  "temp_mean": 24.04,
+  "temp_std": 10.92
+}

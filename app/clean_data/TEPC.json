@@ -1,0 +1,15 @@
+{
+  "region": "TEPC",
+  "name": "Tucson Electric Power",
+  "lat": 32.2,
+  "lng": -110.9,
+  "r": 0.5956,
+  "r2": 0.3548,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8460,
+  "energy_mean": 1650.27,
+  "energy_std": 459.68,
+  "temp_mean": 21.66,
+  "temp_std": 10.05
+}

@@ -1,0 +1,15 @@
+{
+  "region": "NYIS",
+  "name": "New York ISO",
+  "lat": 42.9,
+  "lng": -75.5,
+  "r": 0.2241,
+  "r2": 0.0502,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 17185.98,
+  "energy_std": 3077.36,
+  "temp_mean": 9.27,
+  "temp_std": 10.11
+}

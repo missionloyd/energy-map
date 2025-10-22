@@ -1,0 +1,15 @@
+{
+  "region": "PACE",
+  "name": "PacifiCorp East",
+  "lat": 41.7,
+  "lng": -111.9,
+  "r": 0.3138,
+  "r2": 0.0985,
+  "strength": "moderate",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 6007.58,
+  "energy_std": 866.42,
+  "temp_mean": 9.29,
+  "temp_std": 12.32
+}

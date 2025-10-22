@@ -1,0 +1,15 @@
+{
+  "region": "DUK",
+  "name": "Duke Energy Carolinas",
+  "lat": 35.5,
+  "lng": -80.5,
+  "r": 0.2607,
+  "r2": 0.0679,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 12316.69,
+  "energy_std": 2609.05,
+  "temp_mean": 16.36,
+  "temp_std": 8.78
+}

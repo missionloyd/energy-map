@@ -1,0 +1,15 @@
+{
+  "region": "PSEI",
+  "name": "Puget Sound Energy",
+  "lat": 47.5,
+  "lng": -122.0,
+  "r": -0.3565,
+  "r2": 0.1271,
+  "strength": "moderate",
+  "direction": "negative",
+  "n_observations": 8508,
+  "energy_mean": 2833.36,
+  "energy_std": 557.45,
+  "temp_mean": 7.63,
+  "temp_std": 6.83
+}

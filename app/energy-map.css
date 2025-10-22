@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #energymap {
+    height: 100%;
+    width: 100%;
+}
+
+/* Legend styling */
+.legend {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    line-height: 18px;
+    color: #555;
+}
+
+.legend h4 {
+    margin: 0 0 5px;
+    color: #333;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    border-radius: 50%;
+    border: 1px solid #999;
+}
+
+.legend .dataset-label {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #222;
+}

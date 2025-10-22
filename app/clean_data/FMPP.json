@@ -1,0 +1,15 @@
+{
+  "region": "FMPP",
+  "name": "Florida Municipal Power Pool",
+  "lat": 28.5,
+  "lng": -81.8,
+  "r": 0.83,
+  "r2": 0.689,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 2164.39,
+  "energy_std": 567.28,
+  "temp_mean": 22.11,
+  "temp_std": 6.03
+}

@@ -1,0 +1,15 @@
+{
+  "region": "PJM",
+  "name": "PJM Interconnection",
+  "lat": 40.0,
+  "lng": -78.0,
+  "r": 0.194,
+  "r2": 0.0376,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 8486,
+  "energy_mean": 92821.42,
+  "energy_std": 15532.91,
+  "temp_mean": 12.62,
+  "temp_std": 9.92
+}

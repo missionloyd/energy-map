@@ -1,0 +1,15 @@
+{
+  "region": "GCPD",
+  "name": "Grant County PUD",
+  "lat": 47.1,
+  "lng": -119.3,
+  "r": 0.4568,
+  "r2": 0.2087,
+  "strength": "moderate",
+  "direction": "positive",
+  "n_observations": 8507,
+  "energy_mean": 761.53,
+  "energy_std": 86.7,
+  "temp_mean": 12.83,
+  "temp_std": 10.67
+}

@@ -1,0 +1,15 @@
+{
+  "region": "AZPS",
+  "name": "Arizona Public Service",
+  "lat": 34.5,
+  "lng": -112.0,
+  "r": 0.6771,
+  "r2": 0.4585,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 4099.92,
+  "energy_std": 1314.97,
+  "temp_mean": 16.46,
+  "temp_std": 10.24
+}

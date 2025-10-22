@@ -1,0 +1,15 @@
+{
+  "region": "DOPD",
+  "name": "Douglas County PUD",
+  "lat": 47.7,
+  "lng": -119.8,
+  "r": -0.3438,
+  "r2": 0.1182,
+  "strength": "moderate",
+  "direction": "negative",
+  "n_observations": 8508,
+  "energy_mean": 272.03,
+  "energy_std": 49.17,
+  "temp_mean": 9.25,
+  "temp_std": 10.55
+}

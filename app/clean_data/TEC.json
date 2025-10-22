@@ -1,0 +1,15 @@
+{
+  "region": "TEC",
+  "name": "Tampa Electric",
+  "lat": 27.9,
+  "lng": -82.5,
+  "r": 0.8053,
+  "r2": 0.6485,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8478,
+  "energy_mean": 2545.54,
+  "energy_std": 699.93,
+  "temp_mean": 23.21,
+  "temp_std": 5.84
+}

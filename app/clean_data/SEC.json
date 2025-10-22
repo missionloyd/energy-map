@@ -1,0 +1,15 @@
+{
+  "region": "SEC",
+  "name": "Seminole Electric Cooperative",
+  "lat": 28.5,
+  "lng": -81.5,
+  "r": 0.5934,
+  "r2": 0.3521,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8484,
+  "energy_mean": 234.67,
+  "energy_std": 86.98,
+  "temp_mean": 22.29,
+  "temp_std": 5.87
+}

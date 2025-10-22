@@ -1,0 +1,15 @@
+{
+  "region": "CHPD",
+  "name": "Chelan County PUD",
+  "lat": 47.9,
+  "lng": -120.2,
+  "r": -0.573,
+  "r2": 0.3284,
+  "strength": "strong",
+  "direction": "negative",
+  "n_observations": 8508,
+  "energy_mean": 224.8,
+  "energy_std": 68.37,
+  "temp_mean": 11.03,
+  "temp_std": 10.12
+}

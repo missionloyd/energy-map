@@ -1,0 +1,15 @@
+{
+  "region": "AVA",
+  "name": "Avista",
+  "lat": 47.7,
+  "lng": -117.4,
+  "r": -0.2394,
+  "r2": 0.0573,
+  "strength": "weak",
+  "direction": "negative",
+  "n_observations": 8508,
+  "energy_mean": 1474.99,
+  "energy_std": 745.14,
+  "temp_mean": 9.97,
+  "temp_std": 10.44
+}

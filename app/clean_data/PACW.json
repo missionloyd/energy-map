@@ -1,0 +1,15 @@
+{
+  "region": "PACW",
+  "name": "PacifiCorp West",
+  "lat": 42.0,
+  "lng": -122.5,
+  "r": -0.0577,
+  "r2": 0.0033,
+  "strength": "weak",
+  "direction": "negative",
+  "n_observations": 8508,
+  "energy_mean": 2423.16,
+  "energy_std": 421.07,
+  "temp_mean": 10.09,
+  "temp_std": 9.65
+}

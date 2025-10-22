@@ -1,0 +1,15 @@
+{
+  "region": "EPE",
+  "name": "El Paso Electric",
+  "lat": 31.8,
+  "lng": -106.4,
+  "r": 0.7533,
+  "r2": 0.5674,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 1054.8,
+  "energy_std": 356.82,
+  "temp_mean": 19.98,
+  "temp_std": 9.65
+}

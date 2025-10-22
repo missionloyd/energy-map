@@ -1,0 +1,15 @@
+{
+  "region": "WACM",
+  "name": "WAPA Rocky Mountain",
+  "lat": 40.4,
+  "lng": -105.0,
+  "r": 0.2003,
+  "r2": 0.0401,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 3864.04,
+  "energy_std": 486.61,
+  "temp_mean": 10.8,
+  "temp_std": 11.68
+}

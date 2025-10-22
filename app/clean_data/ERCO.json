@@ -1,0 +1,15 @@
+{
+  "region": "ERCO",
+  "name": "ERCOT (Texas)",
+  "lat": 31.0,
+  "lng": -100.0,
+  "r": 0.7119,
+  "r2": 0.5068,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 52805.39,
+  "energy_std": 10542.74,
+  "temp_mean": 20.21,
+  "temp_std": 8.95
+}

@@ -1,0 +1,15 @@
+{
+  "region": "SCEG",
+  "name": "Dominion Energy South Carolina",
+  "lat": 34.0,
+  "lng": -81.0,
+  "r": 0.5113,
+  "r2": 0.2615,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8503,
+  "energy_mean": 2811.41,
+  "energy_std": 603.19,
+  "temp_mean": 17.93,
+  "temp_std": 8.35
+}

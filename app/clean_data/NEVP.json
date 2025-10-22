@@ -1,0 +1,15 @@
+{
+  "region": "NEVP",
+  "name": "Nevada Power",
+  "lat": 36.2,
+  "lng": -115.1,
+  "r": 0.7712,
+  "r2": 0.5948,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 4687.57,
+  "energy_std": 1504.52,
+  "temp_mean": 22.03,
+  "temp_std": 11.4
+}

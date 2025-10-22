@@ -1,0 +1,15 @@
+{
+  "region": "HST",
+  "name": "City of Homestead",
+  "lat": 25.5,
+  "lng": -80.5,
+  "r": 0.7987,
+  "r2": 0.6379,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 8506,
+  "energy_mean": 73.19,
+  "energy_std": 20.95,
+  "temp_mean": 24.44,
+  "temp_std": 4.51
+}

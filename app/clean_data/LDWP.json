@@ -1,0 +1,15 @@
+{
+  "region": "LDWP",
+  "name": "Los Angeles DWP",
+  "lat": 34.1,
+  "lng": -118.2,
+  "r": 0.3571,
+  "r2": 0.1275,
+  "strength": "moderate",
+  "direction": "positive",
+  "n_observations": 8508,
+  "energy_mean": 2458.78,
+  "energy_std": 806.07,
+  "temp_mean": 17.75,
+  "temp_std": 6.78
+}

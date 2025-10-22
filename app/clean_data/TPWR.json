@@ -1,0 +1,15 @@
+{
+  "region": "TPWR",
+  "name": "Tacoma Power",
+  "lat": 47.3,
+  "lng": -122.5,
+  "r": -0.4735,
+  "r2": 0.2242,
+  "strength": "moderate",
+  "direction": "negative",
+  "n_observations": 8508,
+  "energy_mean": 518.84,
+  "energy_std": 105.8,
+  "temp_mean": 11.7,
+  "temp_std": 6.74
+}
