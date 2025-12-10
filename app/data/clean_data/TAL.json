@@ -1,0 +1,90 @@
+{
+  "region": "TAL",
+  "name": "City of Tallahassee",
+  "lat": 30.4,
+  "lng": -84.3,
+  "last_updated": "2025-12-10T05:32:30Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.6143,
+      "r2": 0.3773,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48042,
+      "mean": 20.36,
+      "std": 6.89
+    },
+    "humidity": {
+      "r": -0.3181,
+      "r2": 0.1012,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48404,
+      "mean": 75.87,
+      "std": 18.69
+    },
+    "pressure": {
+      "r": -0.1323,
+      "r2": 0.0175,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 47898,
+      "mean": 1015.64,
+      "std": 4.36
+    },
+    "cloud_cover": {
+      "r": 0.0142,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48825,
+      "mean": 53.75,
+      "std": 42.78
+    },
+    "solar_radiation": {
+      "r": 0.4352,
+      "r2": 0.1894,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48316,
+      "mean": 129.34,
+      "std": 208.61
+    },
+    "precipitation": {
+      "r": 0.153,
+      "r2": 0.0234,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48350,
+      "mean": 0.09,
+      "std": 0.37
+    },
+    "wind_speed": {
+      "r": -0.062,
+      "r2": 0.0038,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 47903,
+      "mean": 9.57,
+      "std": 4.38
+    },
+    "wind_direction": {
+      "r": 0.0393,
+      "r2": 0.0015,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48041,
+      "mean": 169.11,
+      "std": 101.53
+    }
+  },
+  "energy_stats": {
+    "mean": 318.9,
+    "std": 81.84
+  },
+  "r": 0.6143,
+  "r2": 0.3773,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48042
+}

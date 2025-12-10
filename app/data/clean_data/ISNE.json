@@ -1,0 +1,90 @@
+{
+  "region": "ISNE",
+  "name": "ISO New England",
+  "lat": 42.4,
+  "lng": -71.4,
+  "last_updated": "2025-12-10T05:32:20Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.0413,
+      "r2": 0.0017,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48622,
+      "mean": 10.78,
+      "std": 9.59
+    },
+    "humidity": {
+      "r": -0.037,
+      "r2": 0.0014,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48961,
+      "mean": 71.51,
+      "std": 19.84
+    },
+    "pressure": {
+      "r": -0.0562,
+      "r2": 0.0032,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48429,
+      "mean": 1009.32,
+      "std": 7.61
+    },
+    "cloud_cover": {
+      "r": 0.0568,
+      "r2": 0.0032,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49429,
+      "mean": 57.61,
+      "std": 43.11
+    },
+    "solar_radiation": {
+      "r": 0.028,
+      "r2": 0.0008,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49005,
+      "mean": 96.71,
+      "std": 173.52
+    },
+    "precipitation": {
+      "r": 0.0903,
+      "r2": 0.0082,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48935,
+      "mean": 0.09,
+      "std": 0.34
+    },
+    "wind_speed": {
+      "r": 0.0103,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48497,
+      "mean": 11.51,
+      "std": 5.08
+    },
+    "wind_direction": {
+      "r": -0.0513,
+      "r2": 0.0026,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48541,
+      "mean": 220.82,
+      "std": 92.86
+    }
+  },
+  "energy_stats": {
+    "mean": 13125.64,
+    "std": 2561.01
+  },
+  "r": 0.0413,
+  "r2": 0.0017,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48622
+}

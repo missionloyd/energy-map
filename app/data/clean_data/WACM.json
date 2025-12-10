@@ -1,0 +1,90 @@
+{
+  "region": "WACM",
+  "name": "WAPA Rocky Mountain",
+  "lat": 40.4,
+  "lng": -105.0,
+  "last_updated": "2025-12-10T05:32:32Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.0152,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48587,
+      "mean": 10.0,
+      "std": 11.12
+    },
+    "humidity": {
+      "r": -0.044,
+      "r2": 0.0019,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48849,
+      "mean": 54.0,
+      "std": 23.03
+    },
+    "pressure": {
+      "r": 0.0342,
+      "r2": 0.0012,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48456,
+      "mean": 849.86,
+      "std": 6.15
+    },
+    "cloud_cover": {
+      "r": 0.0794,
+      "r2": 0.0063,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49433,
+      "mean": 46.4,
+      "std": 41.29
+    },
+    "solar_radiation": {
+      "r": 0.0956,
+      "r2": 0.0091,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48944,
+      "mean": 134.13,
+      "std": 209.26
+    },
+    "precipitation": {
+      "r": 0.0149,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48956,
+      "mean": 0.02,
+      "std": 0.1
+    },
+    "wind_speed": {
+      "r": -0.033,
+      "r2": 0.0011,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48485,
+      "mean": 7.84,
+      "std": 4.75
+    },
+    "wind_direction": {
+      "r": -0.0671,
+      "r2": 0.0045,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49032,
+      "mean": 205.92,
+      "std": 108.37
+    }
+  },
+  "energy_stats": {
+    "mean": 3177.22,
+    "std": 876.08
+  },
+  "r": 0.0152,
+  "r2": 0.0002,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48587
+}

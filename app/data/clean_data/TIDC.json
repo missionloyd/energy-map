@@ -1,0 +1,90 @@
+{
+  "region": "TIDC",
+  "name": "Turlock Irrigation District",
+  "lat": 37.5,
+  "lng": -120.8,
+  "last_updated": "2025-12-10T05:32:31Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.7073,
+      "r2": 0.5002,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48617,
+      "mean": 17.9,
+      "std": 9.04
+    },
+    "humidity": {
+      "r": -0.6194,
+      "r2": 0.3837,
+      "strength": "strong",
+      "direction": "negative",
+      "n": 49067,
+      "mean": 56.87,
+      "std": 25.99
+    },
+    "pressure": {
+      "r": -0.5028,
+      "r2": 0.2528,
+      "strength": "strong",
+      "direction": "negative",
+      "n": 48445,
+      "mean": 1011.38,
+      "std": 5.05
+    },
+    "cloud_cover": {
+      "r": -0.3084,
+      "r2": 0.0951,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 49384,
+      "mean": 32.81,
+      "std": 41.73
+    },
+    "solar_radiation": {
+      "r": 0.2793,
+      "r2": 0.078,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48834,
+      "mean": 162.29,
+      "std": 248.29
+    },
+    "precipitation": {
+      "r": -0.1246,
+      "r2": 0.0155,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48905,
+      "mean": 0.02,
+      "std": 0.12
+    },
+    "wind_speed": {
+      "r": 0.1627,
+      "r2": 0.0265,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48437,
+      "mean": 8.83,
+      "std": 4.34
+    },
+    "wind_direction": {
+      "r": 0.2501,
+      "r2": 0.0625,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48515,
+      "mean": 252.73,
+      "std": 103.36
+    }
+  },
+  "energy_stats": {
+    "mean": 329.41,
+    "std": 91.43
+  },
+  "r": 0.7073,
+  "r2": 0.5002,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48617
+}

@@ -1,0 +1,90 @@
+{
+  "region": "BPAT",
+  "name": "Bonneville Power Administration",
+  "lat": 45.5,
+  "lng": -121.5,
+  "last_updated": "2025-12-10T05:32:13Z",
+  "correlations": {
+    "temperature": {
+      "r": -0.3377,
+      "r2": 0.114,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48623,
+      "mean": 5.91,
+      "std": 8.05
+    },
+    "humidity": {
+      "r": 0.0405,
+      "r2": 0.0016,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48963,
+      "mean": 73.59,
+      "std": 20.41
+    },
+    "pressure": {
+      "r": 0.0141,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48446,
+      "mean": 878.59,
+      "std": 5.52
+    },
+    "cloud_cover": {
+      "r": 0.1456,
+      "r2": 0.0212,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49393,
+      "mean": 61.34,
+      "std": 43.21
+    },
+    "solar_radiation": {
+      "r": 0.1469,
+      "r2": 0.0216,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48852,
+      "mean": 115.82,
+      "std": 206.6
+    },
+    "precipitation": {
+      "r": 0.1371,
+      "r2": 0.0188,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48932,
+      "mean": 0.13,
+      "std": 0.37
+    },
+    "wind_speed": {
+      "r": -0.0062,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48454,
+      "mean": 10.59,
+      "std": 5.52
+    },
+    "wind_direction": {
+      "r": 0.0135,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48425,
+      "mean": 201.57,
+      "std": 71.9
+    }
+  },
+  "energy_stats": {
+    "mean": 6583.45,
+    "std": 1001.58
+  },
+  "r": -0.3377,
+  "r2": 0.114,
+  "strength": "moderate",
+  "direction": "negative",
+  "n_observations": 48623
+}

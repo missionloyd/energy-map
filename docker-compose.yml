@@ -1,11 +1,75 @@
 services:
+  # Web server for serving the map application
   web:
+    image: nginx:alpine
+    volumes:
+      - ./app:/usr/share/nginx/html:ro
+    ports:
+      - "${WEB_PORT:-8080}:80"
+    restart: unless-stopped
+
+  # Development web server with live reload
+  web-dev:
     image: node:24-alpine
     working_dir: /app
     volumes:
       - ./app:/app
     ports:
-      - "8080:8080"
+      - "${WEB_DEV_PORT:-8081}:8080"
     command: >
       sh -c "npm install -g live-server &&
              live-server --port=8080 --host=0.0.0.0 --no-browser --watch=."
+    profiles:
+      - dev
+
+  # Python service for data fetching and analysis
+  analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app/data:/app/data
+    environment:
+      - EIA_API_KEY=${EIA_API_KEY}
+    working_dir: /app
+    command: >
+      sh -c "echo 'Analysis service ready. Run with: docker compose run analysis python analysis.py --month all'"
+    profiles:
+      - tools
+
+  # Data fetching service (one-time run)
+  fetch-data:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app/data:/app/data
+    environment:
+      - EIA_API_KEY=${EIA_API_KEY}
+    working_dir: /app
+    command: python fetch_data.py --all
+    profiles:
+      - tools
+
+  # Scheduled data updater (runs daily)
+  scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app/data:/app/data
+    environment:
+      - EIA_API_KEY=${EIA_API_KEY}
+      - UPDATE_INTERVAL=${UPDATE_INTERVAL:-86400}
+    working_dir: /app
+    command: >
+      sh -c "while true; do
+               echo '[$(date)] Starting data update...';
+               python fetch_data.py;
+               python analysis.py --month all;
+               echo '[$(date)] Update complete. Sleeping for $$UPDATE_INTERVAL seconds...';
+               sleep $$UPDATE_INTERVAL;
+             done"
+    restart: unless-stopped
+    profiles:
+      - scheduler

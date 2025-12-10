@@ -1,6 +1,6 @@
 # Energy-Temperature Correlation Map
 
-Spearman correlation analysis between electricity demand and temperature for 66 US balancing authorities (2024).
+Spearman correlation analysis between electricity demand and temperature for 66 US balancing authorities (2020 - Present).
 
 **Live Demo:** https://missionloyd.github.io/energy-map/app/
 
@@ -15,7 +15,6 @@ Spearman correlation analysis between electricity demand and temperature for 66 
 ## What's Inside
 
 - **66 balancing authorities** across all US interconnections
-- **12 months** of hourly data (energy + temperature)
 - **Spearman correlation** (Cohen's guidelines: weak <0.3, moderate <0.5, strong ≥0.5)
 - **Interactive Leaflet map** with colorblind-friendly markers
 - **Scatter plots** for strongest and weakest correlations

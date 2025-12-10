@@ -1,0 +1,90 @@
+{
+  "region": "PACE",
+  "name": "PacifiCorp East",
+  "lat": 41.7,
+  "lng": -111.9,
+  "last_updated": "2025-12-10T05:32:24Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.2688,
+      "r2": 0.0722,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48600,
+      "mean": 8.81,
+      "std": 11.73
+    },
+    "humidity": {
+      "r": -0.3339,
+      "r2": 0.1115,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48801,
+      "mean": 59.2,
+      "std": 24.74
+    },
+    "pressure": {
+      "r": 0.2434,
+      "r2": 0.0592,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48462,
+      "mean": 865.58,
+      "std": 5.61
+    },
+    "cloud_cover": {
+      "r": 0.0085,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49437,
+      "mean": 47.12,
+      "std": 42.93
+    },
+    "solar_radiation": {
+      "r": 0.3323,
+      "r2": 0.1104,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48915,
+      "mean": 137.49,
+      "std": 219.52
+    },
+    "precipitation": {
+      "r": -0.0048,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48974,
+      "mean": 0.04,
+      "std": 0.14
+    },
+    "wind_speed": {
+      "r": 0.064,
+      "r2": 0.0041,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48496,
+      "mean": 5.29,
+      "std": 3.03
+    },
+    "wind_direction": {
+      "r": 0.1464,
+      "r2": 0.0214,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48954,
+      "mean": 161.59,
+      "std": 87.96
+    }
+  },
+  "energy_stats": {
+    "mean": 5784.3,
+    "std": 937.66
+  },
+  "r": 0.2688,
+  "r2": 0.0722,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48600
+}

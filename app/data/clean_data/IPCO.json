@@ -1,0 +1,90 @@
+{
+  "region": "IPCO",
+  "name": "Idaho Power",
+  "lat": 43.6,
+  "lng": -116.2,
+  "last_updated": "2025-12-10T05:32:20Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.4168,
+      "r2": 0.1738,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48698,
+      "mean": 12.25,
+      "std": 10.63
+    },
+    "humidity": {
+      "r": -0.3843,
+      "r2": 0.1477,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48585,
+      "mean": 50.61,
+      "std": 23.56
+    },
+    "pressure": {
+      "r": 0.0307,
+      "r2": 0.0009,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48444,
+      "mean": 921.88,
+      "std": 5.67
+    },
+    "cloud_cover": {
+      "r": -0.1513,
+      "r2": 0.0229,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49434,
+      "mean": 46.38,
+      "std": 43.34
+    },
+    "solar_radiation": {
+      "r": 0.2878,
+      "r2": 0.0829,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48933,
+      "mean": 132.63,
+      "std": 214.01
+    },
+    "precipitation": {
+      "r": -0.0764,
+      "r2": 0.0058,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48943,
+      "mean": 0.03,
+      "std": 0.11
+    },
+    "wind_speed": {
+      "r": 0.0015,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48532,
+      "mean": 9.45,
+      "std": 5.73
+    },
+    "wind_direction": {
+      "r": 0.1227,
+      "r2": 0.015,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48559,
+      "mean": 194.3,
+      "std": 106.3
+    }
+  },
+  "energy_stats": {
+    "mean": 2098.95,
+    "std": 486.25
+  },
+  "r": 0.4168,
+  "r2": 0.1738,
+  "strength": "moderate",
+  "direction": "positive",
+  "n_observations": 48698
+}

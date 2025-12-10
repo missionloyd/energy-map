@@ -1,0 +1,90 @@
+{
+  "region": "SWPP",
+  "name": "Southwest Power Pool",
+  "lat": 37.5,
+  "lng": -97.0,
+  "last_updated": "2025-12-10T05:32:30Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.3564,
+      "r2": 0.127,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48634,
+      "mean": 15.08,
+      "std": 10.43
+    },
+    "humidity": {
+      "r": -0.2006,
+      "r2": 0.0402,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48429,
+      "mean": 64.21,
+      "std": 18.14
+    },
+    "pressure": {
+      "r": 0.0585,
+      "r2": 0.0034,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48429,
+      "mean": 972.29,
+      "std": 6.09
+    },
+    "cloud_cover": {
+      "r": -0.0089,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49408,
+      "mean": 44.64,
+      "std": 43.86
+    },
+    "solar_radiation": {
+      "r": 0.319,
+      "r2": 0.1018,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48893,
+      "mean": 133.54,
+      "std": 213.97
+    },
+    "precipitation": {
+      "r": -0.014,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48910,
+      "mean": 0.04,
+      "std": 0.22
+    },
+    "wind_speed": {
+      "r": 0.0121,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48473,
+      "mean": 14.51,
+      "std": 6.76
+    },
+    "wind_direction": {
+      "r": -0.0349,
+      "r2": 0.0012,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48602,
+      "mean": 168.86,
+      "std": 93.44
+    }
+  },
+  "energy_stats": {
+    "mean": 32044.21,
+    "std": 17026.58
+  },
+  "r": 0.3564,
+  "r2": 0.127,
+  "strength": "moderate",
+  "direction": "positive",
+  "n_observations": 48634
+}

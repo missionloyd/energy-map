@@ -1,0 +1,90 @@
+{
+  "region": "SPA",
+  "name": "Southwestern Power Administration",
+  "lat": 35.5,
+  "lng": -97.0,
+  "last_updated": "2025-12-10T05:32:29Z",
+  "correlations": {
+    "temperature": {
+      "r": -0.0134,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48503,
+      "mean": 17.3,
+      "std": 9.6
+    },
+    "humidity": {
+      "r": -0.0818,
+      "r2": 0.0067,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48635,
+      "mean": 64.82,
+      "std": 18.24
+    },
+    "pressure": {
+      "r": 0.0048,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48382,
+      "mean": 981.37,
+      "std": 5.85
+    },
+    "cloud_cover": {
+      "r": 0.0666,
+      "r2": 0.0044,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49331,
+      "mean": 43.99,
+      "std": 43.79
+    },
+    "solar_radiation": {
+      "r": 0.086,
+      "r2": 0.0074,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48831,
+      "mean": 135.78,
+      "std": 217.17
+    },
+    "precipitation": {
+      "r": 0.0296,
+      "r2": 0.0009,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48843,
+      "mean": 0.05,
+      "std": 0.25
+    },
+    "wind_speed": {
+      "r": 0.0463,
+      "r2": 0.0021,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48395,
+      "mean": 13.56,
+      "std": 6.21
+    },
+    "wind_direction": {
+      "r": 0.0198,
+      "r2": 0.0004,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48587,
+      "mean": 176.58,
+      "std": 90.59
+    }
+  },
+  "energy_stats": {
+    "mean": 28.78,
+    "std": 4416.19
+  },
+  "r": -0.0134,
+  "r2": 0.0002,
+  "strength": "weak",
+  "direction": "negative",
+  "n_observations": 48503
+}

@@ -1,0 +1,90 @@
+{
+  "region": "IID",
+  "name": "Imperial Irrigation District",
+  "lat": 33.0,
+  "lng": -115.5,
+  "last_updated": "2025-12-10T05:32:20Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.883,
+      "r2": 0.7797,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48615,
+      "mean": 24.77,
+      "std": 10.01
+    },
+    "humidity": {
+      "r": -0.4917,
+      "r2": 0.2418,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48608,
+      "mean": 31.89,
+      "std": 18.78
+    },
+    "pressure": {
+      "r": -0.6755,
+      "r2": 0.4562,
+      "strength": "strong",
+      "direction": "negative",
+      "n": 48432,
+      "mean": 1016.83,
+      "std": 5.49
+    },
+    "cloud_cover": {
+      "r": -0.1202,
+      "r2": 0.0144,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49354,
+      "mean": 21.5,
+      "std": 35.18
+    },
+    "solar_radiation": {
+      "r": 0.3092,
+      "r2": 0.0956,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48844,
+      "mean": 179.57,
+      "std": 255.42
+    },
+    "precipitation": {
+      "r": -0.0069,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49000,
+      "mean": 0.0,
+      "std": 0.01
+    },
+    "wind_speed": {
+      "r": 0.1085,
+      "r2": 0.0118,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48410,
+      "mean": 8.15,
+      "std": 4.8
+    },
+    "wind_direction": {
+      "r": -0.0972,
+      "r2": 0.0094,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48436,
+      "mean": 216.66,
+      "std": 85.56
+    }
+  },
+  "energy_stats": {
+    "mean": 437.72,
+    "std": 200.53
+  },
+  "r": 0.883,
+  "r2": 0.7797,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48615
+}

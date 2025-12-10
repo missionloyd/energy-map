@@ -1,0 +1,90 @@
+{
+  "region": "TEC",
+  "name": "Tampa Electric",
+  "lat": 27.9,
+  "lng": -82.5,
+  "last_updated": "2025-12-10T05:32:30Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.7908,
+      "r2": 0.6254,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48498,
+      "mean": 23.3,
+      "std": 5.31
+    },
+    "humidity": {
+      "r": -0.3621,
+      "r2": 0.1311,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48569,
+      "mean": 73.96,
+      "std": 15.31
+    },
+    "pressure": {
+      "r": -0.2442,
+      "r2": 0.0596,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48395,
+      "mean": 1016.21,
+      "std": 3.72
+    },
+    "cloud_cover": {
+      "r": 0.1347,
+      "r2": 0.0181,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49334,
+      "mean": 52.4,
+      "std": 41.07
+    },
+    "solar_radiation": {
+      "r": 0.4578,
+      "r2": 0.2096,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48825,
+      "mean": 140.43,
+      "std": 215.08
+    },
+    "precipitation": {
+      "r": 0.2485,
+      "r2": 0.0618,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48851,
+      "mean": 0.08,
+      "std": 0.32
+    },
+    "wind_speed": {
+      "r": -0.0199,
+      "r2": 0.0004,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48424,
+      "mean": 12.94,
+      "std": 6.3
+    },
+    "wind_direction": {
+      "r": 0.2071,
+      "r2": 0.0429,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48497,
+      "mean": 155.07,
+      "std": 103.55
+    }
+  },
+  "energy_stats": {
+    "mean": 2527.62,
+    "std": 678.16
+  },
+  "r": 0.7908,
+  "r2": 0.6254,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48498
+}

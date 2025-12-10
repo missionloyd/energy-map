@@ -1,0 +1,90 @@
+{
+  "region": "EPE",
+  "name": "El Paso Electric",
+  "lat": 31.8,
+  "lng": -106.4,
+  "last_updated": "2025-12-10T05:32:16Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.7307,
+      "r2": 0.5339,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48726,
+      "mean": 19.7,
+      "std": 9.33
+    },
+    "humidity": {
+      "r": -0.2038,
+      "r2": 0.0415,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48620,
+      "mean": 33.56,
+      "std": 19.93
+    },
+    "pressure": {
+      "r": 0.263,
+      "r2": 0.0691,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48469,
+      "mean": 884.2,
+      "std": 3.84
+    },
+    "cloud_cover": {
+      "r": 0.0942,
+      "r2": 0.0089,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49432,
+      "mean": 30.0,
+      "std": 38.89
+    },
+    "solar_radiation": {
+      "r": 0.2232,
+      "r2": 0.0498,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48939,
+      "mean": 182.38,
+      "std": 261.32
+    },
+    "precipitation": {
+      "r": 0.0276,
+      "r2": 0.0008,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48974,
+      "mean": 0.01,
+      "std": 0.04
+    },
+    "wind_speed": {
+      "r": 0.1203,
+      "r2": 0.0145,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48512,
+      "mean": 10.45,
+      "std": 6.23
+    },
+    "wind_direction": {
+      "r": -0.0941,
+      "r2": 0.0089,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48531,
+      "mean": 185.88,
+      "std": 94.12
+    }
+  },
+  "energy_stats": {
+    "mean": 1024.57,
+    "std": 331.16
+  },
+  "r": 0.7307,
+  "r2": 0.5339,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48726
+}

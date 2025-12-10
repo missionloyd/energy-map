@@ -1,0 +1,90 @@
+{
+  "region": "WAUW",
+  "name": "WAPA Upper Great Plains",
+  "lat": 46.0,
+  "lng": -103.0,
+  "last_updated": "2025-12-10T05:32:33Z",
+  "correlations": {
+    "temperature": {
+      "r": -0.0688,
+      "r2": 0.0047,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48601,
+      "mean": 8.04,
+      "std": 11.84
+    },
+    "humidity": {
+      "r": -0.1076,
+      "r2": 0.0116,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48672,
+      "mean": 60.63,
+      "std": 19.68
+    },
+    "pressure": {
+      "r": 0.1376,
+      "r2": 0.0189,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48439,
+      "mean": 920.35,
+      "std": 6.19
+    },
+    "cloud_cover": {
+      "r": 0.0378,
+      "r2": 0.0014,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49440,
+      "mean": 50.43,
+      "std": 43.37
+    },
+    "solar_radiation": {
+      "r": 0.1837,
+      "r2": 0.0338,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48945,
+      "mean": 117.6,
+      "std": 195.15
+    },
+    "precipitation": {
+      "r": 0.0124,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48944,
+      "mean": 0.02,
+      "std": 0.1
+    },
+    "wind_speed": {
+      "r": 0.0422,
+      "r2": 0.0018,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48458,
+      "mean": 15.24,
+      "std": 7.51
+    },
+    "wind_direction": {
+      "r": 0.0214,
+      "r2": 0.0005,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48605,
+      "mean": 213.4,
+      "std": 95.66
+    }
+  },
+  "energy_stats": {
+    "mean": 94.83,
+    "std": 19.4
+  },
+  "r": -0.0688,
+  "r2": 0.0047,
+  "strength": "weak",
+  "direction": "negative",
+  "n_observations": 48601
+}

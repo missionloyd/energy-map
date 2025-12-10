@@ -1,0 +1,90 @@
+{
+  "region": "GCPD",
+  "name": "Grant County PUD",
+  "lat": 47.1,
+  "lng": -119.3,
+  "last_updated": "2025-12-10T05:32:18Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.3186,
+      "r2": 0.1015,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48660,
+      "mean": 12.61,
+      "std": 10.41
+    },
+    "humidity": {
+      "r": -0.2858,
+      "r2": 0.0817,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48827,
+      "mean": 55.57,
+      "std": 25.48
+    },
+    "pressure": {
+      "r": -0.0654,
+      "r2": 0.0043,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48464,
+      "mean": 978.3,
+      "std": 6.44
+    },
+    "cloud_cover": {
+      "r": -0.1296,
+      "r2": 0.0168,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49460,
+      "mean": 50.88,
+      "std": 43.88
+    },
+    "solar_radiation": {
+      "r": 0.1868,
+      "r2": 0.0349,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48966,
+      "mean": 119.38,
+      "std": 201.11
+    },
+    "precipitation": {
+      "r": -0.0656,
+      "r2": 0.0043,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49019,
+      "mean": 0.02,
+      "std": 0.07
+    },
+    "wind_speed": {
+      "r": -0.0674,
+      "r2": 0.0045,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48487,
+      "mean": 9.98,
+      "std": 5.45
+    },
+    "wind_direction": {
+      "r": 0.0495,
+      "r2": 0.0024,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49050,
+      "mean": 195.91,
+      "std": 99.62
+    }
+  },
+  "energy_stats": {
+    "mean": 701.5,
+    "std": 97.81
+  },
+  "r": 0.3186,
+  "r2": 0.1015,
+  "strength": "moderate",
+  "direction": "positive",
+  "n_observations": 48660
+}

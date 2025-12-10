@@ -1,0 +1,90 @@
+{
+  "region": "CISO",
+  "name": "California ISO",
+  "lat": 36.7,
+  "lng": -119.7,
+  "last_updated": "2025-12-10T05:32:13Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.5344,
+      "r2": 0.2856,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48521,
+      "mean": 18.5,
+      "std": 9.81
+    },
+    "humidity": {
+      "r": -0.4847,
+      "r2": 0.235,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 49183,
+      "mean": 53.45,
+      "std": 27.1
+    },
+    "pressure": {
+      "r": -0.3923,
+      "r2": 0.1539,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48488,
+      "mean": 1003.95,
+      "std": 4.99
+    },
+    "cloud_cover": {
+      "r": -0.2191,
+      "r2": 0.048,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49425,
+      "mean": 30.6,
+      "std": 40.85
+    },
+    "solar_radiation": {
+      "r": 0.1219,
+      "r2": 0.0149,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48894,
+      "mean": 162.14,
+      "std": 245.32
+    },
+    "precipitation": {
+      "r": -0.0625,
+      "r2": 0.0039,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48948,
+      "mean": 0.01,
+      "std": 0.1
+    },
+    "wind_speed": {
+      "r": 0.1397,
+      "r2": 0.0195,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48534,
+      "mean": 8.07,
+      "std": 4.36
+    },
+    "wind_direction": {
+      "r": 0.1564,
+      "r2": 0.0245,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48457,
+      "mean": 241.89,
+      "std": 97.97
+    }
+  },
+  "energy_stats": {
+    "mean": 25233.03,
+    "std": 4715.88
+  },
+  "r": 0.5344,
+  "r2": 0.2856,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48521
+}

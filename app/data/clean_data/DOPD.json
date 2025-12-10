@@ -1,0 +1,90 @@
+{
+  "region": "DOPD",
+  "name": "Douglas County PUD",
+  "lat": 47.7,
+  "lng": -119.8,
+  "last_updated": "2025-12-10T05:32:15Z",
+  "correlations": {
+    "temperature": {
+      "r": -0.339,
+      "r2": 0.1149,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 47572,
+      "mean": 9.0,
+      "std": 10.14
+    },
+    "humidity": {
+      "r": 0.2368,
+      "r2": 0.0561,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 47806,
+      "mean": 61.52,
+      "std": 24.18
+    },
+    "pressure": {
+      "r": 0.0938,
+      "r2": 0.0088,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 47286,
+      "mean": 927.68,
+      "std": 5.84
+    },
+    "cloud_cover": {
+      "r": 0.1597,
+      "r2": 0.0255,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48211,
+      "mean": 53.48,
+      "std": 43.56
+    },
+    "solar_radiation": {
+      "r": 0.0012,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 47659,
+      "mean": 123.35,
+      "std": 206.33
+    },
+    "precipitation": {
+      "r": 0.0647,
+      "r2": 0.0042,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 47788,
+      "mean": 0.03,
+      "std": 0.11
+    },
+    "wind_speed": {
+      "r": -0.2433,
+      "r2": 0.0592,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 47261,
+      "mean": 12.71,
+      "std": 7.21
+    },
+    "wind_direction": {
+      "r": -0.1121,
+      "r2": 0.0126,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 47315,
+      "mean": 227.55,
+      "std": 95.16
+    }
+  },
+  "energy_stats": {
+    "mean": 246.48,
+    "std": 55.87
+  },
+  "r": -0.339,
+  "r2": 0.1149,
+  "strength": "moderate",
+  "direction": "negative",
+  "n_observations": 47572
+}

@@ -1,0 +1,90 @@
+{
+  "region": "HST",
+  "name": "City of Homestead",
+  "lat": 25.5,
+  "lng": -80.5,
+  "last_updated": "2025-12-10T05:32:19Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.7409,
+      "r2": 0.549,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48757,
+      "mean": 24.59,
+      "std": 3.95
+    },
+    "humidity": {
+      "r": -0.2783,
+      "r2": 0.0775,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48726,
+      "mean": 77.72,
+      "std": 14.91
+    },
+    "pressure": {
+      "r": -0.2616,
+      "r2": 0.0684,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48560,
+      "mean": 1016.35,
+      "std": 3.2
+    },
+    "cloud_cover": {
+      "r": 0.1477,
+      "r2": 0.0218,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49532,
+      "mean": 53.24,
+      "std": 38.79
+    },
+    "solar_radiation": {
+      "r": 0.338,
+      "r2": 0.1142,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 49030,
+      "mean": 132.43,
+      "std": 200.12
+    },
+    "precipitation": {
+      "r": 0.2243,
+      "r2": 0.0503,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49040,
+      "mean": 0.11,
+      "std": 0.4
+    },
+    "wind_speed": {
+      "r": 0.008,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48534,
+      "mean": 11.14,
+      "std": 5.79
+    },
+    "wind_direction": {
+      "r": 0.0004,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48693,
+      "mean": 142.61,
+      "std": 96.69
+    }
+  },
+  "energy_stats": {
+    "mean": 71.2,
+    "std": 19.89
+  },
+  "r": 0.7409,
+  "r2": 0.549,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48757
+}

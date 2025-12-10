@@ -1,0 +1,90 @@
+{
+  "region": "FMPP",
+  "name": "Florida Municipal Power Pool",
+  "lat": 28.5,
+  "lng": -81.8,
+  "last_updated": "2025-12-10T05:32:16Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.7974,
+      "r2": 0.6359,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48592,
+      "mean": 22.35,
+      "std": 5.55
+    },
+    "humidity": {
+      "r": -0.4074,
+      "r2": 0.166,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48933,
+      "mean": 78.55,
+      "std": 16.88
+    },
+    "pressure": {
+      "r": -0.2178,
+      "r2": 0.0474,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48403,
+      "mean": 1013.76,
+      "std": 3.81
+    },
+    "cloud_cover": {
+      "r": 0.139,
+      "r2": 0.0193,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49386,
+      "mean": 54.99,
+      "std": 41.12
+    },
+    "solar_radiation": {
+      "r": 0.4813,
+      "r2": 0.2316,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48875,
+      "mean": 128.23,
+      "std": 203.35
+    },
+    "precipitation": {
+      "r": 0.2889,
+      "r2": 0.0835,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48899,
+      "mean": 0.11,
+      "std": 0.41
+    },
+    "wind_speed": {
+      "r": 0.0147,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48438,
+      "mean": 10.43,
+      "std": 5.3
+    },
+    "wind_direction": {
+      "r": -0.0119,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48537,
+      "mean": 160.42,
+      "std": 102.46
+    }
+  },
+  "energy_stats": {
+    "mean": 2164.5,
+    "std": 3012.41
+  },
+  "r": 0.7974,
+  "r2": 0.6359,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48592
+}

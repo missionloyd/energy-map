@@ -1,0 +1,90 @@
+{
+  "region": "TVA",
+  "name": "Tennessee Valley Authority",
+  "lat": 35.5,
+  "lng": -86.0,
+  "last_updated": "2025-12-10T05:32:32Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.2213,
+      "r2": 0.049,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48732,
+      "mean": 15.6,
+      "std": 8.58
+    },
+    "humidity": {
+      "r": -0.2246,
+      "r2": 0.0504,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49000,
+      "mean": 71.95,
+      "std": 18.94
+    },
+    "pressure": {
+      "r": 0.1283,
+      "r2": 0.0165,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48500,
+      "mean": 977.43,
+      "std": 4.61
+    },
+    "cloud_cover": {
+      "r": -0.0366,
+      "r2": 0.0013,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49405,
+      "mean": 55.59,
+      "std": 43.06
+    },
+    "solar_radiation": {
+      "r": 0.3071,
+      "r2": 0.0943,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48872,
+      "mean": 115.4,
+      "std": 194.11
+    },
+    "precipitation": {
+      "r": 0.0279,
+      "r2": 0.0008,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48935,
+      "mean": 0.11,
+      "std": 0.41
+    },
+    "wind_speed": {
+      "r": -0.1051,
+      "r2": 0.0111,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48446,
+      "mean": 10.54,
+      "std": 5.01
+    },
+    "wind_direction": {
+      "r": 0.1287,
+      "r2": 0.0166,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48578,
+      "mean": 174.45,
+      "std": 92.27
+    }
+  },
+  "energy_stats": {
+    "mean": 18509.93,
+    "std": 62856.57
+  },
+  "r": 0.2213,
+  "r2": 0.049,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48732
+}

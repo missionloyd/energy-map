@@ -1,0 +1,90 @@
+{
+  "region": "LDWP",
+  "name": "Los Angeles DWP",
+  "lat": 34.1,
+  "lng": -118.2,
+  "last_updated": "2025-12-10T05:32:21Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.5528,
+      "r2": 0.3056,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48525,
+      "mean": 18.0,
+      "std": 6.4
+    },
+    "humidity": {
+      "r": -0.2947,
+      "r2": 0.0868,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48758,
+      "mean": 59.94,
+      "std": 24.35
+    },
+    "pressure": {
+      "r": -0.205,
+      "r2": 0.042,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48394,
+      "mean": 998.7,
+      "std": 3.38
+    },
+    "cloud_cover": {
+      "r": -0.2189,
+      "r2": 0.0479,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49322,
+      "mean": 34.14,
+      "std": 41.04
+    },
+    "solar_radiation": {
+      "r": 0.4137,
+      "r2": 0.1711,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48839,
+      "mean": 165.79,
+      "std": 248.64
+    },
+    "precipitation": {
+      "r": -0.0618,
+      "r2": 0.0038,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48847,
+      "mean": 0.03,
+      "std": 0.16
+    },
+    "wind_speed": {
+      "r": 0.3109,
+      "r2": 0.0966,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48394,
+      "mean": 6.06,
+      "std": 3.46
+    },
+    "wind_direction": {
+      "r": 0.3316,
+      "r2": 0.11,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48948,
+      "mean": 154.53,
+      "std": 87.23
+    }
+  },
+  "energy_stats": {
+    "mean": 2809.61,
+    "std": 667.74
+  },
+  "r": 0.5528,
+  "r2": 0.3056,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48525
+}

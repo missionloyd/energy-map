@@ -1,0 +1,90 @@
+{
+  "region": "PGE",
+  "name": "Portland General Electric",
+  "lat": 45.5,
+  "lng": -122.7,
+  "last_updated": "2025-12-10T05:32:25Z",
+  "correlations": {
+    "temperature": {
+      "r": -0.0765,
+      "r2": 0.0059,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48746,
+      "mean": 10.76,
+      "std": 7.22
+    },
+    "humidity": {
+      "r": -0.1964,
+      "r2": 0.0386,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48663,
+      "mean": 75.55,
+      "std": 18.77
+    },
+    "pressure": {
+      "r": -0.0539,
+      "r2": 0.0029,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48443,
+      "mean": 989.88,
+      "std": 5.84
+    },
+    "cloud_cover": {
+      "r": 0.0175,
+      "r2": 0.0003,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49439,
+      "mean": 62.88,
+      "std": 41.52
+    },
+    "solar_radiation": {
+      "r": 0.2186,
+      "r2": 0.0478,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48903,
+      "mean": 93.35,
+      "std": 179.35
+    },
+    "precipitation": {
+      "r": 0.0619,
+      "r2": 0.0038,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48954,
+      "mean": 0.13,
+      "std": 0.36
+    },
+    "wind_speed": {
+      "r": 0.2254,
+      "r2": 0.0508,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48493,
+      "mean": 9.7,
+      "std": 5.77
+    },
+    "wind_direction": {
+      "r": -0.0782,
+      "r2": 0.0061,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48558,
+      "mean": 213.01,
+      "std": 96.88
+    }
+  },
+  "energy_stats": {
+    "mean": 2529.56,
+    "std": 430.47
+  },
+  "r": -0.0765,
+  "r2": 0.0059,
+  "strength": "weak",
+  "direction": "negative",
+  "n_observations": 48746
+}

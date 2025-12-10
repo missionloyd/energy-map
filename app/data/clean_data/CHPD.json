@@ -1,0 +1,90 @@
+{
+  "region": "CHPD",
+  "name": "Chelan County PUD",
+  "lat": 47.9,
+  "lng": -120.2,
+  "last_updated": "2025-12-10T05:32:13Z",
+  "correlations": {
+    "temperature": {
+      "r": -0.6013,
+      "r2": 0.3616,
+      "strength": "strong",
+      "direction": "negative",
+      "n": 48781,
+      "mean": 11.39,
+      "std": 9.71
+    },
+    "humidity": {
+      "r": 0.3668,
+      "r2": 0.1345,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 49048,
+      "mean": 67.51,
+      "std": 23.46
+    },
+    "pressure": {
+      "r": 0.1867,
+      "r2": 0.0349,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48535,
+      "mean": 976.8,
+      "std": 6.43
+    },
+    "cloud_cover": {
+      "r": 0.3484,
+      "r2": 0.1214,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 49451,
+      "mean": 56.19,
+      "std": 43.41
+    },
+    "solar_radiation": {
+      "r": -0.0493,
+      "r2": 0.0024,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48898,
+      "mean": 123.0,
+      "std": 205.96
+    },
+    "precipitation": {
+      "r": 0.2008,
+      "r2": 0.0403,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48989,
+      "mean": 0.04,
+      "std": 0.14
+    },
+    "wind_speed": {
+      "r": -0.2623,
+      "r2": 0.0688,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48751,
+      "mean": 4.77,
+      "std": 2.73
+    },
+    "wind_direction": {
+      "r": -0.4432,
+      "r2": 0.1964,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 49003,
+      "mean": 214.6,
+      "std": 99.56
+    }
+  },
+  "energy_stats": {
+    "mean": 219.26,
+    "std": 68.15
+  },
+  "r": -0.6013,
+  "r2": 0.3616,
+  "strength": "strong",
+  "direction": "negative",
+  "n_observations": 48781
+}

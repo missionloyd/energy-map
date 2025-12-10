@@ -1,0 +1,90 @@
+{
+  "region": "PJM",
+  "name": "PJM Interconnection",
+  "lat": 40.0,
+  "lng": -78.0,
+  "last_updated": "2025-12-10T05:32:25Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.1441,
+      "r2": 0.0208,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48552,
+      "mean": 12.09,
+      "std": 9.6
+    },
+    "humidity": {
+      "r": -0.2085,
+      "r2": 0.0435,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48921,
+      "mean": 69.27,
+      "std": 19.44
+    },
+    "pressure": {
+      "r": 0.0342,
+      "r2": 0.0012,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48341,
+      "mean": 980.99,
+      "std": 6.09
+    },
+    "cloud_cover": {
+      "r": 0.0111,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49320,
+      "mean": 58.47,
+      "std": 42.33
+    },
+    "solar_radiation": {
+      "r": 0.2404,
+      "r2": 0.0578,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48796,
+      "mean": 104.3,
+      "std": 182.12
+    },
+    "precipitation": {
+      "r": 0.0275,
+      "r2": 0.0008,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48861,
+      "mean": 0.07,
+      "std": 0.26
+    },
+    "wind_speed": {
+      "r": 0.0251,
+      "r2": 0.0006,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48332,
+      "mean": 9.95,
+      "std": 4.97
+    },
+    "wind_direction": {
+      "r": 0.0307,
+      "r2": 0.0009,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48364,
+      "mean": 221.09,
+      "std": 89.04
+    }
+  },
+  "energy_stats": {
+    "mean": 173134.9,
+    "std": 11902091.87
+  },
+  "r": 0.1441,
+  "r2": 0.0208,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48552
+}

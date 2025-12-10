@@ -1,0 +1,90 @@
+{
+  "region": "NYIS",
+  "name": "New York ISO",
+  "lat": 42.9,
+  "lng": -75.5,
+  "last_updated": "2025-12-10T05:32:23Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.2084,
+      "r2": 0.0434,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48582,
+      "mean": 8.71,
+      "std": 9.95
+    },
+    "humidity": {
+      "r": -0.0888,
+      "r2": 0.0079,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48968,
+      "mean": 75.95,
+      "std": 16.72
+    },
+    "pressure": {
+      "r": 0.0015,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48439,
+      "mean": 972.46,
+      "std": 6.66
+    },
+    "cloud_cover": {
+      "r": 0.0158,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49433,
+      "mean": 66.94,
+      "std": 40.06
+    },
+    "solar_radiation": {
+      "r": 0.2144,
+      "r2": 0.046,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48901,
+      "mean": 89.34,
+      "std": 167.63
+    },
+    "precipitation": {
+      "r": 0.0727,
+      "r2": 0.0053,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48972,
+      "mean": 0.1,
+      "std": 0.31
+    },
+    "wind_speed": {
+      "r": -0.0641,
+      "r2": 0.0041,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48455,
+      "mean": 12.91,
+      "std": 5.95
+    },
+    "wind_direction": {
+      "r": 0.0547,
+      "r2": 0.003,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48497,
+      "mean": 229.55,
+      "std": 73.27
+    }
+  },
+  "energy_stats": {
+    "mean": 17179.67,
+    "std": 3139.95
+  },
+  "r": 0.2084,
+  "r2": 0.0434,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48582
+}

@@ -1,0 +1,90 @@
+{
+  "region": "PSEI",
+  "name": "Puget Sound Energy",
+  "lat": 47.5,
+  "lng": -122.0,
+  "last_updated": "2025-12-10T05:32:26Z",
+  "correlations": {
+    "temperature": {
+      "r": -0.3889,
+      "r2": 0.1513,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 40516,
+      "mean": 7.72,
+      "std": 6.77
+    },
+    "humidity": {
+      "r": -0.1672,
+      "r2": 0.0279,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 40803,
+      "mean": 78.14,
+      "std": 18.24
+    },
+    "pressure": {
+      "r": -0.0189,
+      "r2": 0.0004,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 40360,
+      "mean": 945.43,
+      "std": 5.95
+    },
+    "cloud_cover": {
+      "r": 0.0928,
+      "r2": 0.0086,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 41137,
+      "mean": 67.08,
+      "std": 41.07
+    },
+    "solar_radiation": {
+      "r": 0.1401,
+      "r2": 0.0196,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 40673,
+      "mean": 84.96,
+      "std": 166.37
+    },
+    "precipitation": {
+      "r": 0.117,
+      "r2": 0.0137,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 40752,
+      "mean": 0.14,
+      "std": 0.38
+    },
+    "wind_speed": {
+      "r": 0.2164,
+      "r2": 0.0468,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 40448,
+      "mean": 7.79,
+      "std": 4.61
+    },
+    "wind_direction": {
+      "r": -0.0392,
+      "r2": 0.0015,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 40356,
+      "mean": 185.99,
+      "std": 83.49
+    }
+  },
+  "energy_stats": {
+    "mean": 2824.54,
+    "std": 587.68
+  },
+  "r": -0.3889,
+  "r2": 0.1513,
+  "strength": "moderate",
+  "direction": "negative",
+  "n_observations": 40516
+}

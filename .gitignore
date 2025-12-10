@@ -40,11 +40,11 @@ logs/
 *.tmp
 *.temp
 .cache/
+fetch-data.sh
 
 # OS files
 Thumbs.db
 .DS_Store
-SimpleDemo
-analysis.py
-requirements.txt
-fetch-data.sh
+
+# Raw data (large fetched files, not tracked in git)
+app/data/raw_data/

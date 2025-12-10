@@ -1,0 +1,90 @@
+{
+  "region": "SC",
+  "name": "Santee Cooper",
+  "lat": 33.5,
+  "lng": -80.5,
+  "last_updated": "2025-12-10T05:32:27Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.2904,
+      "r2": 0.0844,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48647,
+      "mean": 18.77,
+      "std": 7.53
+    },
+    "humidity": {
+      "r": -0.2244,
+      "r2": 0.0504,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48626,
+      "mean": 71.62,
+      "std": 17.94
+    },
+    "pressure": {
+      "r": -0.0118,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48333,
+      "mean": 1012.62,
+      "std": 5.17
+    },
+    "cloud_cover": {
+      "r": 0.0167,
+      "r2": 0.0003,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49293,
+      "mean": 53.36,
+      "std": 43.25
+    },
+    "solar_radiation": {
+      "r": 0.2722,
+      "r2": 0.0741,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48750,
+      "mean": 125.89,
+      "std": 204.99
+    },
+    "precipitation": {
+      "r": 0.0745,
+      "r2": 0.0055,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48808,
+      "mean": 0.08,
+      "std": 0.32
+    },
+    "wind_speed": {
+      "r": -0.086,
+      "r2": 0.0074,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48418,
+      "mean": 11.65,
+      "std": 5.7
+    },
+    "wind_direction": {
+      "r": -0.019,
+      "r2": 0.0004,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48427,
+      "mean": 170.52,
+      "std": 98.25
+    }
+  },
+  "energy_stats": {
+    "mean": 2913.64,
+    "std": 619.32
+  },
+  "r": 0.2904,
+  "r2": 0.0844,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48647
+}

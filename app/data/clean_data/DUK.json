@@ -1,0 +1,90 @@
+{
+  "region": "DUK",
+  "name": "Duke Energy Carolinas",
+  "lat": 35.5,
+  "lng": -80.5,
+  "last_updated": "2025-12-10T05:32:15Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.2302,
+      "r2": 0.053,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48766,
+      "mean": 16.28,
+      "std": 8.45
+    },
+    "humidity": {
+      "r": -0.2204,
+      "r2": 0.0486,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48970,
+      "mean": 69.17,
+      "std": 20.33
+    },
+    "pressure": {
+      "r": 0.033,
+      "r2": 0.0011,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48467,
+      "mean": 992.16,
+      "std": 5.36
+    },
+    "cloud_cover": {
+      "r": -0.013,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49438,
+      "mean": 53.49,
+      "std": 43.35
+    },
+    "solar_radiation": {
+      "r": 0.3044,
+      "r2": 0.0927,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48912,
+      "mean": 120.51,
+      "std": 199.4
+    },
+    "precipitation": {
+      "r": 0.0549,
+      "r2": 0.003,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48963,
+      "mean": 0.08,
+      "std": 0.31
+    },
+    "wind_speed": {
+      "r": -0.1095,
+      "r2": 0.012,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48461,
+      "mean": 9.76,
+      "std": 4.55
+    },
+    "wind_direction": {
+      "r": 0.0195,
+      "r2": 0.0004,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48569,
+      "mean": 175.96,
+      "std": 104.68
+    }
+  },
+  "energy_stats": {
+    "mean": 12087.67,
+    "std": 2605.89
+  },
+  "r": 0.2302,
+  "r2": 0.053,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48766
+}

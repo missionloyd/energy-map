@@ -1,0 +1,90 @@
+{
+  "region": "SRP",
+  "name": "Salt River Project",
+  "lat": 33.4,
+  "lng": -111.9,
+  "last_updated": "2025-12-10T05:32:29Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.7907,
+      "r2": 0.6252,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48543,
+      "mean": 24.06,
+      "std": 10.0
+    },
+    "humidity": {
+      "r": -0.3406,
+      "r2": 0.116,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48587,
+      "mean": 32.31,
+      "std": 21.51
+    },
+    "pressure": {
+      "r": -0.4032,
+      "r2": 0.1626,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48343,
+      "mean": 970.93,
+      "std": 3.9
+    },
+    "cloud_cover": {
+      "r": 0.0421,
+      "r2": 0.0018,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49313,
+      "mean": 27.04,
+      "std": 38.17
+    },
+    "solar_radiation": {
+      "r": 0.2167,
+      "r2": 0.047,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48817,
+      "mean": 171.51,
+      "std": 246.93
+    },
+    "precipitation": {
+      "r": -0.0388,
+      "r2": 0.0015,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48828,
+      "mean": 0.01,
+      "std": 0.05
+    },
+    "wind_speed": {
+      "r": 0.0878,
+      "r2": 0.0077,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48415,
+      "mean": 9.18,
+      "std": 5.11
+    },
+    "wind_direction": {
+      "r": 0.3291,
+      "r2": 0.1083,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48377,
+      "mean": 176.54,
+      "std": 93.21
+    }
+  },
+  "energy_stats": {
+    "mean": 3870.15,
+    "std": 1473.67
+  },
+  "r": 0.7907,
+  "r2": 0.6252,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48543
+}

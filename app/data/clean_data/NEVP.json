@@ -1,0 +1,90 @@
+{
+  "region": "NEVP",
+  "name": "Nevada Power",
+  "lat": 36.2,
+  "lng": -115.1,
+  "last_updated": "2025-12-10T05:32:23Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.7219,
+      "r2": 0.5212,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48722,
+      "mean": 21.77,
+      "std": 10.47
+    },
+    "humidity": {
+      "r": -0.3976,
+      "r2": 0.1581,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48795,
+      "mean": 25.74,
+      "std": 16.71
+    },
+    "pressure": {
+      "r": -0.2546,
+      "r2": 0.0648,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48459,
+      "mean": 949.39,
+      "std": 4.95
+    },
+    "cloud_cover": {
+      "r": -0.0601,
+      "r2": 0.0036,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49428,
+      "mean": 26.34,
+      "std": 37.64
+    },
+    "solar_radiation": {
+      "r": 0.1874,
+      "r2": 0.0351,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48925,
+      "mean": 172.88,
+      "std": 248.91
+    },
+    "precipitation": {
+      "r": -0.0074,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48929,
+      "mean": 0.0,
+      "std": 0.01
+    },
+    "wind_speed": {
+      "r": 0.1222,
+      "r2": 0.0149,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48477,
+      "mean": 9.92,
+      "std": 7.84
+    },
+    "wind_direction": {
+      "r": -0.148,
+      "r2": 0.0219,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48927,
+      "mean": 207.67,
+      "std": 95.1
+    }
+  },
+  "energy_stats": {
+    "mean": 4489.67,
+    "std": 1262.2
+  },
+  "r": 0.7219,
+  "r2": 0.5212,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48722
+}

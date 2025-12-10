@@ -1,0 +1,90 @@
+{
+  "region": "CPLW",
+  "name": "Duke Energy Progress West",
+  "lat": 35.5,
+  "lng": -79.0,
+  "last_updated": "2025-12-10T05:32:14Z",
+  "correlations": {
+    "temperature": {
+      "r": -0.1805,
+      "r2": 0.0326,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48686,
+      "mean": 16.77,
+      "std": 8.3
+    },
+    "humidity": {
+      "r": -0.2909,
+      "r2": 0.0846,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49068,
+      "mean": 70.45,
+      "std": 19.9
+    },
+    "pressure": {
+      "r": 0.1117,
+      "r2": 0.0125,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48506,
+      "mean": 1002.88,
+      "std": 5.6
+    },
+    "cloud_cover": {
+      "r": -0.0393,
+      "r2": 0.0015,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49444,
+      "mean": 54.04,
+      "std": 43.45
+    },
+    "solar_radiation": {
+      "r": 0.2474,
+      "r2": 0.0612,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48914,
+      "mean": 122.19,
+      "std": 200.87
+    },
+    "precipitation": {
+      "r": 0.0437,
+      "r2": 0.0019,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48956,
+      "mean": 0.08,
+      "std": 0.35
+    },
+    "wind_speed": {
+      "r": -0.0068,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48549,
+      "mean": 10.36,
+      "std": 4.64
+    },
+    "wind_direction": {
+      "r": 0.0509,
+      "r2": 0.0026,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48650,
+      "mean": 187.2,
+      "std": 102.25
+    }
+  },
+  "energy_stats": {
+    "mean": 560.93,
+    "std": 130.32
+  },
+  "r": -0.1805,
+  "r2": 0.0326,
+  "strength": "weak",
+  "direction": "negative",
+  "n_observations": 48686
+}

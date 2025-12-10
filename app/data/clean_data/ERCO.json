@@ -1,0 +1,90 @@
+{
+  "region": "ERCO",
+  "name": "ERCOT (Texas)",
+  "lat": 31.0,
+  "lng": -100.0,
+  "last_updated": "2025-12-10T05:32:16Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.6391,
+      "r2": 0.4085,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48637,
+      "mean": 19.74,
+      "std": 8.74
+    },
+    "humidity": {
+      "r": -0.3003,
+      "r2": 0.0902,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48811,
+      "mean": 57.09,
+      "std": 22.26
+    },
+    "pressure": {
+      "r": 0.0076,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48469,
+      "mean": 940.75,
+      "std": 4.5
+    },
+    "cloud_cover": {
+      "r": -0.0358,
+      "r2": 0.0013,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49434,
+      "mean": 40.11,
+      "std": 42.41
+    },
+    "solar_radiation": {
+      "r": 0.3427,
+      "r2": 0.1175,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48960,
+      "mean": 154.77,
+      "std": 236.78
+    },
+    "precipitation": {
+      "r": 0.0091,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48939,
+      "mean": 0.02,
+      "std": 0.11
+    },
+    "wind_speed": {
+      "r": 0.0011,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48488,
+      "mean": 15.53,
+      "std": 6.49
+    },
+    "wind_direction": {
+      "r": -0.1372,
+      "r2": 0.0188,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48600,
+      "mean": 169.52,
+      "std": 79.46
+    }
+  },
+  "energy_stats": {
+    "mean": 49496.76,
+    "std": 11227.68
+  },
+  "r": 0.6391,
+  "r2": 0.4085,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48637
+}

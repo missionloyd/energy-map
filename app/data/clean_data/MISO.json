@@ -1,0 +1,90 @@
+{
+  "region": "MISO",
+  "name": "Midcontinent ISO",
+  "lat": 42.0,
+  "lng": -89.0,
+  "last_updated": "2025-12-10T05:32:22Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.2847,
+      "r2": 0.0811,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48615,
+      "mean": 10.76,
+      "std": 11.01
+    },
+    "humidity": {
+      "r": -0.1601,
+      "r2": 0.0256,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48555,
+      "mean": 68.88,
+      "std": 17.34
+    },
+    "pressure": {
+      "r": 0.0518,
+      "r2": 0.0027,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48425,
+      "mean": 988.33,
+      "std": 6.4
+    },
+    "cloud_cover": {
+      "r": 0.0076,
+      "r2": 0.0001,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49405,
+      "mean": 57.38,
+      "std": 43.58
+    },
+    "solar_radiation": {
+      "r": 0.3232,
+      "r2": 0.1044,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48885,
+      "mean": 105.52,
+      "std": 184.26
+    },
+    "precipitation": {
+      "r": 0.0253,
+      "r2": 0.0006,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48923,
+      "mean": 0.06,
+      "std": 0.23
+    },
+    "wind_speed": {
+      "r": -0.0331,
+      "r2": 0.0011,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48435,
+      "mean": 14.96,
+      "std": 6.94
+    },
+    "wind_direction": {
+      "r": 0.0388,
+      "r2": 0.0015,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48559,
+      "mean": 197.27,
+      "std": 93.84
+    }
+  },
+  "energy_stats": {
+    "mean": 73593.68,
+    "std": 11474.99
+  },
+  "r": 0.2847,
+  "r2": 0.0811,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48615
+}

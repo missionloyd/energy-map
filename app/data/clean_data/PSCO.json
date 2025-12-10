@@ -1,0 +1,90 @@
+{
+  "region": "PSCO",
+  "name": "Public Service Company of Colorado",
+  "lat": 39.7,
+  "lng": -105.0,
+  "last_updated": "2025-12-10T05:32:26Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.1642,
+      "r2": 0.027,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48443,
+      "mean": 10.45,
+      "std": 11.36
+    },
+    "humidity": {
+      "r": -0.2767,
+      "r2": 0.0766,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48484,
+      "mean": 51.42,
+      "std": 23.72
+    },
+    "pressure": {
+      "r": 0.1717,
+      "r2": 0.0295,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48313,
+      "mean": 839.83,
+      "std": 6.33
+    },
+    "cloud_cover": {
+      "r": 0.1022,
+      "r2": 0.0105,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49289,
+      "mean": 45.03,
+      "std": 41.29
+    },
+    "solar_radiation": {
+      "r": 0.2456,
+      "r2": 0.0603,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48781,
+      "mean": 141.31,
+      "std": 218.44
+    },
+    "precipitation": {
+      "r": 0.0645,
+      "r2": 0.0042,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48840,
+      "mean": 0.03,
+      "std": 0.13
+    },
+    "wind_speed": {
+      "r": 0.1628,
+      "r2": 0.0265,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48341,
+      "mean": 8.22,
+      "std": 4.52
+    },
+    "wind_direction": {
+      "r": -0.0537,
+      "r2": 0.0029,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48476,
+      "mean": 180.9,
+      "std": 95.04
+    }
+  },
+  "energy_stats": {
+    "mean": 5267.53,
+    "std": 978.95
+  },
+  "r": 0.1642,
+  "r2": 0.027,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48443
+}

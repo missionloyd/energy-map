@@ -1,0 +1,90 @@
+{
+  "region": "FPL",
+  "name": "Florida Power & Light",
+  "lat": 27.0,
+  "lng": -80.5,
+  "last_updated": "2025-12-10T05:32:17Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.7901,
+      "r2": 0.6242,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 47926,
+      "mean": 24.07,
+      "std": 4.48
+    },
+    "humidity": {
+      "r": -0.3732,
+      "r2": 0.1393,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48157,
+      "mean": 75.63,
+      "std": 15.8
+    },
+    "pressure": {
+      "r": -0.2176,
+      "r2": 0.0474,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 47815,
+      "mean": 1016.38,
+      "std": 3.47
+    },
+    "cloud_cover": {
+      "r": 0.1763,
+      "r2": 0.0311,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48769,
+      "mean": 53.9,
+      "std": 39.68
+    },
+    "solar_radiation": {
+      "r": 0.4891,
+      "r2": 0.2392,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48283,
+      "mean": 130.88,
+      "std": 201.58
+    },
+    "precipitation": {
+      "r": 0.2573,
+      "r2": 0.0662,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48280,
+      "mean": 0.09,
+      "std": 0.35
+    },
+    "wind_speed": {
+      "r": 0.0642,
+      "r2": 0.0041,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 47855,
+      "mean": 10.3,
+      "std": 4.95
+    },
+    "wind_direction": {
+      "r": -0.0511,
+      "r2": 0.0026,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 47934,
+      "mean": 153.76,
+      "std": 97.58
+    }
+  },
+  "energy_stats": {
+    "mean": 15880.22,
+    "std": 4307.54
+  },
+  "r": 0.7901,
+  "r2": 0.6242,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 47926
+}

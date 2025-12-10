@@ -1,0 +1,90 @@
+{
+  "region": "WALC",
+  "name": "WAPA Desert Southwest",
+  "lat": 35.5,
+  "lng": -112.0,
+  "last_updated": "2025-12-10T05:32:33Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.7026,
+      "r2": 0.4937,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48459,
+      "mean": 10.84,
+      "std": 9.65
+    },
+    "humidity": {
+      "r": -0.4575,
+      "r2": 0.2093,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48597,
+      "mean": 42.44,
+      "std": 22.86
+    },
+    "pressure": {
+      "r": 0.533,
+      "r2": 0.2841,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48424,
+      "mean": 793.4,
+      "std": 6.14
+    },
+    "cloud_cover": {
+      "r": -0.0235,
+      "r2": 0.0006,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49349,
+      "mean": 32.71,
+      "std": 40.13
+    },
+    "solar_radiation": {
+      "r": 0.216,
+      "r2": 0.0466,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48849,
+      "mean": 175.42,
+      "std": 255.49
+    },
+    "precipitation": {
+      "r": -0.0206,
+      "r2": 0.0004,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48880,
+      "mean": 0.02,
+      "std": 0.11
+    },
+    "wind_speed": {
+      "r": 0.0055,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48376,
+      "mean": 15.05,
+      "std": 7.36
+    },
+    "wind_direction": {
+      "r": 0.242,
+      "r2": 0.0586,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48380,
+      "mean": 178.89,
+      "std": 70.94
+    }
+  },
+  "energy_stats": {
+    "mean": 1052.21,
+    "std": 760.5
+  },
+  "r": 0.7026,
+  "r2": 0.4937,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48459
+}

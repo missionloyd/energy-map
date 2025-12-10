@@ -1,0 +1,90 @@
+{
+  "region": "PNM",
+  "name": "Public Service Company of New Mexico",
+  "lat": 35.1,
+  "lng": -106.6,
+  "last_updated": "2025-12-10T05:32:25Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.2168,
+      "r2": 0.047,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48688,
+      "mean": 15.13,
+      "std": 10.25
+    },
+    "humidity": {
+      "r": -0.0671,
+      "r2": 0.0045,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48728,
+      "mean": 37.45,
+      "std": 20.7
+    },
+    "pressure": {
+      "r": 0.1795,
+      "r2": 0.0322,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48496,
+      "mean": 844.63,
+      "std": 4.99
+    },
+    "cloud_cover": {
+      "r": 0.1699,
+      "r2": 0.0289,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49438,
+      "mean": 34.28,
+      "std": 39.79
+    },
+    "solar_radiation": {
+      "r": 0.0413,
+      "r2": 0.0017,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48935,
+      "mean": 173.66,
+      "std": 252.95
+    },
+    "precipitation": {
+      "r": 0.0385,
+      "r2": 0.0015,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48963,
+      "mean": 0.01,
+      "std": 0.06
+    },
+    "wind_speed": {
+      "r": 0.0791,
+      "r2": 0.0063,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48548,
+      "mean": 9.9,
+      "std": 6.16
+    },
+    "wind_direction": {
+      "r": 0.0246,
+      "r2": 0.0006,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48464,
+      "mean": 169.51,
+      "std": 103.42
+    }
+  },
+  "energy_stats": {
+    "mean": 1636.05,
+    "std": 271.27
+  },
+  "r": 0.2168,
+  "r2": 0.047,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48688
+}

@@ -1,0 +1,90 @@
+{
+  "region": "SCEG",
+  "name": "Dominion Energy South Carolina",
+  "lat": 34.0,
+  "lng": -81.0,
+  "last_updated": "2025-12-10T05:32:27Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.4982,
+      "r2": 0.2482,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48389,
+      "mean": 18.1,
+      "std": 8.06
+    },
+    "humidity": {
+      "r": -0.242,
+      "r2": 0.0585,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48306,
+      "mean": 69.77,
+      "std": 19.46
+    },
+    "pressure": {
+      "r": -0.0371,
+      "r2": 0.0014,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48149,
+      "mean": 1006.73,
+      "std": 5.23
+    },
+    "cloud_cover": {
+      "r": -0.0176,
+      "r2": 0.0003,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49123,
+      "mean": 52.69,
+      "std": 43.36
+    },
+    "solar_radiation": {
+      "r": 0.3948,
+      "r2": 0.1559,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48602,
+      "mean": 124.54,
+      "std": 203.15
+    },
+    "precipitation": {
+      "r": 0.0524,
+      "r2": 0.0027,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48631,
+      "mean": 0.08,
+      "std": 0.32
+    },
+    "wind_speed": {
+      "r": -0.1047,
+      "r2": 0.011,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48167,
+      "mean": 10.09,
+      "std": 5.01
+    },
+    "wind_direction": {
+      "r": 0.0068,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48206,
+      "mean": 175.25,
+      "std": 98.53
+    }
+  },
+  "energy_stats": {
+    "mean": 2786.64,
+    "std": 593.46
+  },
+  "r": 0.4982,
+  "r2": 0.2482,
+  "strength": "moderate",
+  "direction": "positive",
+  "n_observations": 48389
+}

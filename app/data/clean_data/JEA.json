@@ -1,0 +1,90 @@
+{
+  "region": "JEA",
+  "name": "JEA",
+  "lat": 30.3,
+  "lng": -81.7,
+  "last_updated": "2025-12-10T05:32:21Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.6332,
+      "r2": 0.4009,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48536,
+      "mean": 21.22,
+      "std": 6.28
+    },
+    "humidity": {
+      "r": -0.3789,
+      "r2": 0.1436,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48870,
+      "mean": 78.23,
+      "std": 15.77
+    },
+    "pressure": {
+      "r": -0.1277,
+      "r2": 0.0163,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48307,
+      "mean": 1016.43,
+      "std": 4.34
+    },
+    "cloud_cover": {
+      "r": 0.0449,
+      "r2": 0.002,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49263,
+      "mean": 55.74,
+      "std": 41.66
+    },
+    "solar_radiation": {
+      "r": 0.4233,
+      "r2": 0.1791,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48746,
+      "mean": 129.34,
+      "std": 204.98
+    },
+    "precipitation": {
+      "r": 0.19,
+      "r2": 0.0361,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48789,
+      "mean": 0.09,
+      "std": 0.34
+    },
+    "wind_speed": {
+      "r": 0.0444,
+      "r2": 0.002,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48340,
+      "mean": 11.53,
+      "std": 5.57
+    },
+    "wind_direction": {
+      "r": -0.0863,
+      "r2": 0.0075,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48400,
+      "mean": 177.45,
+      "std": 101.51
+    }
+  },
+  "energy_stats": {
+    "mean": 1523.23,
+    "std": 382.54
+  },
+  "r": 0.6332,
+  "r2": 0.4009,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48536
+}

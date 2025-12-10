@@ -1,0 +1,90 @@
+{
+  "region": "FPC",
+  "name": "Duke Energy Florida",
+  "lat": 28.5,
+  "lng": -82.0,
+  "last_updated": "2025-12-10T05:32:17Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.7314,
+      "r2": 0.5349,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48598,
+      "mean": 22.03,
+      "std": 5.75
+    },
+    "humidity": {
+      "r": -0.3375,
+      "r2": 0.1139,
+      "strength": "moderate",
+      "direction": "negative",
+      "n": 48986,
+      "mean": 77.94,
+      "std": 18.21
+    },
+    "pressure": {
+      "r": -0.1912,
+      "r2": 0.0365,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48471,
+      "mean": 1012.45,
+      "std": 3.8
+    },
+    "cloud_cover": {
+      "r": 0.1404,
+      "r2": 0.0197,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49433,
+      "mean": 55.2,
+      "std": 41.2
+    },
+    "solar_radiation": {
+      "r": 0.4283,
+      "r2": 0.1834,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48913,
+      "mean": 128.94,
+      "std": 204.11
+    },
+    "precipitation": {
+      "r": 0.2788,
+      "r2": 0.0778,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48958,
+      "mean": 0.1,
+      "std": 0.4
+    },
+    "wind_speed": {
+      "r": -0.0314,
+      "r2": 0.001,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48509,
+      "mean": 9.49,
+      "std": 4.46
+    },
+    "wind_direction": {
+      "r": 0.0335,
+      "r2": 0.0011,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48530,
+      "mean": 161.41,
+      "std": 103.29
+    }
+  },
+  "energy_stats": {
+    "mean": 6462.79,
+    "std": 1858.0
+  },
+  "r": 0.7314,
+  "r2": 0.5349,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48598
+}

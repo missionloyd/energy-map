@@ -1,0 +1,90 @@
+{
+  "region": "AZPS",
+  "name": "Arizona Public Service",
+  "lat": 34.5,
+  "lng": -112.0,
+  "last_updated": "2025-12-10T05:32:12Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.6344,
+      "r2": 0.4025,
+      "strength": "strong",
+      "direction": "positive",
+      "n": 48529,
+      "mean": 16.3,
+      "std": 9.43
+    },
+    "humidity": {
+      "r": -0.1537,
+      "r2": 0.0236,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48665,
+      "mean": 36.89,
+      "std": 22.17
+    },
+    "pressure": {
+      "r": 0.3826,
+      "r2": 0.1463,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48448,
+      "mean": 863.73,
+      "std": 4.13
+    },
+    "cloud_cover": {
+      "r": 0.0667,
+      "r2": 0.0045,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49409,
+      "mean": 30.32,
+      "std": 39.05
+    },
+    "solar_radiation": {
+      "r": 0.0431,
+      "r2": 0.0019,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48900,
+      "mean": 168.38,
+      "std": 246.55
+    },
+    "precipitation": {
+      "r": -0.0132,
+      "r2": 0.0002,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48942,
+      "mean": 0.01,
+      "std": 0.09
+    },
+    "wind_speed": {
+      "r": -0.0447,
+      "r2": 0.002,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48426,
+      "mean": 11.18,
+      "std": 6.81
+    },
+    "wind_direction": {
+      "r": 0.2727,
+      "r2": 0.0743,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48426,
+      "mean": 152.46,
+      "std": 85.82
+    }
+  },
+  "energy_stats": {
+    "mean": 3843.47,
+    "std": 1309.15
+  },
+  "r": 0.6344,
+  "r2": 0.4025,
+  "strength": "strong",
+  "direction": "positive",
+  "n_observations": 48529
+}

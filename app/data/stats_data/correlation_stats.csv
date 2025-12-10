@@ -1,0 +1,9 @@
+variable,strong_negative,strong_positive,moderate,weak
+temperature,2,20,11,22
+humidity,1,0,17,37
+pressure,2,1,4,48
+cloud_cover,0,0,2,53
+solar_radiation,0,0,22,33
+precipitation,0,0,0,55
+wind_speed,0,0,1,54
+wind_direction,0,0,3,52

@@ -1,0 +1,90 @@
+{
+  "region": "TPWR",
+  "name": "Tacoma Power",
+  "lat": 47.3,
+  "lng": -122.5,
+  "last_updated": "2025-12-10T05:32:32Z",
+  "correlations": {
+    "temperature": {
+      "r": -0.5236,
+      "r2": 0.2742,
+      "strength": "strong",
+      "direction": "negative",
+      "n": 48651,
+      "mean": 11.72,
+      "std": 6.44
+    },
+    "humidity": {
+      "r": 0.0194,
+      "r2": 0.0004,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48985,
+      "mean": 77.53,
+      "std": 17.1
+    },
+    "pressure": {
+      "r": 0.0595,
+      "r2": 0.0035,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48490,
+      "mean": 1017.43,
+      "std": 6.4
+    },
+    "cloud_cover": {
+      "r": 0.141,
+      "r2": 0.0199,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49442,
+      "mean": 64.76,
+      "std": 40.66
+    },
+    "solar_radiation": {
+      "r": 0.0794,
+      "r2": 0.0063,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48896,
+      "mean": 91.44,
+      "std": 172.22
+    },
+    "precipitation": {
+      "r": 0.1478,
+      "r2": 0.0218,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48971,
+      "mean": 0.1,
+      "std": 0.31
+    },
+    "wind_speed": {
+      "r": 0.0658,
+      "r2": 0.0043,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48553,
+      "mean": 11.32,
+      "std": 6.58
+    },
+    "wind_direction": {
+      "r": -0.0987,
+      "r2": 0.0097,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48537,
+      "mean": 157.91,
+      "std": 91.32
+    }
+  },
+  "energy_stats": {
+    "mean": 542.18,
+    "std": 111.18
+  },
+  "r": -0.5236,
+  "r2": 0.2742,
+  "strength": "strong",
+  "direction": "negative",
+  "n_observations": 48651
+}

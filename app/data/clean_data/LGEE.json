@@ -1,0 +1,90 @@
+{
+  "region": "LGEE",
+  "name": "LG&E and KU Services",
+  "lat": 38.0,
+  "lng": -85.5,
+  "last_updated": "2025-12-10T05:32:22Z",
+  "correlations": {
+    "temperature": {
+      "r": 0.1862,
+      "r2": 0.0347,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48653,
+      "mean": 14.17,
+      "std": 9.42
+    },
+    "humidity": {
+      "r": -0.2266,
+      "r2": 0.0514,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48851,
+      "mean": 71.87,
+      "std": 18.66
+    },
+    "pressure": {
+      "r": 0.0758,
+      "r2": 0.0057,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48404,
+      "mean": 995.12,
+      "std": 5.55
+    },
+    "cloud_cover": {
+      "r": -0.0167,
+      "r2": 0.0003,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 49332,
+      "mean": 56.25,
+      "std": 43.38
+    },
+    "solar_radiation": {
+      "r": 0.3055,
+      "r2": 0.0933,
+      "strength": "moderate",
+      "direction": "positive",
+      "n": 48778,
+      "mean": 112.71,
+      "std": 191.18
+    },
+    "precipitation": {
+      "r": -0.0002,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48855,
+      "mean": 0.09,
+      "std": 0.36
+    },
+    "wind_speed": {
+      "r": -0.0777,
+      "r2": 0.006,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48357,
+      "mean": 10.03,
+      "std": 4.61
+    },
+    "wind_direction": {
+      "r": 0.0892,
+      "r2": 0.008,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48406,
+      "mean": 188.98,
+      "std": 90.96
+    }
+  },
+  "energy_stats": {
+    "mean": 3785.55,
+    "std": 75148.5
+  },
+  "r": 0.1862,
+  "r2": 0.0347,
+  "strength": "weak",
+  "direction": "positive",
+  "n_observations": 48653
+}

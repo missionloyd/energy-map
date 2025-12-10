@@ -1,0 +1,90 @@
+{
+  "region": "AVA",
+  "name": "Avista",
+  "lat": 47.7,
+  "lng": -117.4,
+  "last_updated": "2025-12-10T05:32:11Z",
+  "correlations": {
+    "temperature": {
+      "r": -0.2426,
+      "r2": 0.0588,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48809,
+      "mean": 9.84,
+      "std": 10.14
+    },
+    "humidity": {
+      "r": -0.0001,
+      "r2": 0.0,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48866,
+      "mean": 62.59,
+      "std": 24.11
+    },
+    "pressure": {
+      "r": 0.1209,
+      "r2": 0.0146,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48502,
+      "mean": 942.7,
+      "std": 5.92
+    },
+    "cloud_cover": {
+      "r": 0.1365,
+      "r2": 0.0186,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 49451,
+      "mean": 56.34,
+      "std": 43.33
+    },
+    "solar_radiation": {
+      "r": 0.216,
+      "r2": 0.0467,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48911,
+      "mean": 111.7,
+      "std": 193.71
+    },
+    "precipitation": {
+      "r": 0.0733,
+      "r2": 0.0054,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48966,
+      "mean": 0.03,
+      "std": 0.13
+    },
+    "wind_speed": {
+      "r": -0.0643,
+      "r2": 0.0041,
+      "strength": "weak",
+      "direction": "negative",
+      "n": 48595,
+      "mean": 8.57,
+      "std": 5.38
+    },
+    "wind_direction": {
+      "r": 0.1173,
+      "r2": 0.0138,
+      "strength": "weak",
+      "direction": "positive",
+      "n": 48546,
+      "mean": 171.49,
+      "std": 80.99
+    }
+  },
+  "energy_stats": {
+    "mean": 1459.77,
+    "std": 608.67
+  },
+  "r": -0.2426,
+  "r2": 0.0588,
+  "strength": "weak",
+  "direction": "negative",
+  "n_observations": 48809
+}
